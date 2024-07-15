@@ -2,8 +2,8 @@
 import Button from "../Components/Button"
 const Subscribe = () => {
   return (
-    <section 
-    id="contact-us" className="max-container flex justify-between items-center max-lg:flex-col gap-10">
+    <section
+      id="contact-us" className="max-container flex justify-between items-center max-lg:flex-col gap-10">
       <h3 className="text-4xl max-sm:text-center  leading-[68px] lg:max-w-lg font-palanquin font-bold">
         Sign Up from <br /><span className="text-coral-red"> Upadtes </span>& Newslatter
       </h3>

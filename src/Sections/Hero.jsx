@@ -32,7 +32,7 @@ const [bigShoeImg, setBigShoeImg] = useState(bigShoe1)
       </div>
       <div className="flex flex-1 relative justify-between items-center xl:min-h-screen mx-xl:py-40 bg-primary bg-hero bg-cover bg-center">
         <img src={bigShoeImg} alt="shoesHero" height={400} width={510} className="  object-contain relative z-10" />
-        <div className=" flex  justify-center left-0 right-0 sm:gap-6 gap-4 absolute  sm:left -[10%] bottom-2 max-sm:px-6">
+        <div className=" flex  justify-center left-0 right-0 sm:gap-6 gap-4 absolute bottom-[-8%] max-sm:bottom-[-20%] z-20 sm:left -[10%] max-sm:px-6">
           {shoes.map((shoe, index) => (
             <div key={shoe}>
               <ShoeCard
